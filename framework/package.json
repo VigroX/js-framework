@@ -1,0 +1,30 @@
+{
+	"name": "js-framework",
+	"version": "1.0.0",
+	"description": "A Web Component JavaScript framework.",
+	"main": "./src/main.js",
+	"module": "./dist/vendor.min.js",
+	"type": "module",
+	"scripts": {
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"esbuild": "^0.25.2",
+		"terser": "^5.39.0",
+		"vite": "^6.3.2"
+	},
+	"dependencies": {
+		"vanjs-core": "1.5.2",
+		"vanjs-ext": "0.6.2"
+	},
+	"files": ["dist"],
+	"exports": {
+		".": {
+			"import": "./dist/vendor.js"
+		}
+	},
+	"keywords": [
+		"Web components"
+	],
+	"license": "MIT"
+}
