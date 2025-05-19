@@ -1,0 +1,10 @@
+{
+  "name": "js-plugins",
+  "version": "1.0.0",
+  "description": "List of plugin modules for js-framework.",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "src/*"
+  ]
+}

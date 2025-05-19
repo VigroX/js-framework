@@ -1,0 +1,10 @@
+{
+	"name": "html",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"private": true,
+	"dependencies": {
+		"xhtm": "1.6.3"
+	}
+}
